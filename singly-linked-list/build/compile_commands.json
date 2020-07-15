@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/sidbaskaran/Desktop/cpp-learning/singly-linked-list/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/singly-linked-list.dir/main.cpp.o -c /Users/sidbaskaran/Desktop/cpp-learning/singly-linked-list/main.cpp",
+  "file": "/Users/sidbaskaran/Desktop/cpp-learning/singly-linked-list/main.cpp"
+}
+]

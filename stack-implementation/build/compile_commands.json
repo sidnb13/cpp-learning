@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/sidbaskaran/Desktop/cpp-learning/stack-implementation/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/stack.dir/main.cpp.o -c /Users/sidbaskaran/Desktop/cpp-learning/stack-implementation/main.cpp",
+  "file": "/Users/sidbaskaran/Desktop/cpp-learning/stack-implementation/main.cpp"
+}
+]
