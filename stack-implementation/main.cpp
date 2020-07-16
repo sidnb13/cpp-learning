@@ -32,6 +32,7 @@ void Stack::push (int val) {
     tmp->data = val;
     tmp->next = top;
     top = tmp;
+    length++;
 }
 
 int Stack::pop() {
@@ -41,6 +42,7 @@ int Stack::pop() {
     tmp->next = NULL;
     int ret = tmp->data;
     delete tmp;
+    length--;
     return ret;
 }
 
@@ -49,6 +51,7 @@ int Stack::peek() {
 }
 
 void Stack::clear() {
+    length = 0;
     top = NULL;
     delete top;
 }
@@ -58,13 +61,7 @@ bool Stack::isEmpty() {
 }
 
 int Stack::size() {
-    int size;
-    StackNode *t = top;
-    while (t != NULL) {
-        size++;
-        t = t->next;
-    }
-    return size;
+    return length;
 }
 
 void Stack::printStack() {
